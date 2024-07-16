@@ -3,7 +3,7 @@ name = "nonosql"
 authors = [
   { name = "Andi Powers-Holmes", email = "aholmes@omnom.net" },
 ]
-description = "a WandB Monitoring Bot"
+description = "A NoSQL database that isn't NoSQL or really even a database"
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = [
@@ -35,8 +35,6 @@ dev = [
   "ruff >=0.0.289",
   "setuptools-scm >= 8.0.0",
   "pre-commit >= 3.0.0",     # remember to run `pre-commit install` after installing
-]
-extra = [
 ]
 all = [
   "nonosql[dev]",
@@ -80,7 +78,6 @@ known-local-folder = ["src"]
 known-first-party = [
   "nonosql",
 ]
-
 
 [tool.pyright]
 include = ["src"]
